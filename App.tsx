@@ -20,6 +20,12 @@ function App(): JSX.Element {
         onChangeText={txt => setText(txt)}
         label="Something"
       />
+      <TextInput
+        mode="flat"
+        value={text}
+        onChangeText={txt => setText(txt)}
+        label="Something"
+      />
     </View>
   );
 }
